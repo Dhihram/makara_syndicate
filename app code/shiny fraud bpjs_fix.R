@@ -12,15 +12,15 @@ library(DT)
 
 
 #API GEMINI
-setAPI("AIzaSyAFYzJTKe4Hur_nl9eve_fSzXwtrtfpjHw")
+setAPI("xxxxxxxxx")
 
 #API OpenAI
 Sys.setenv(
-  OPENAI_API_KEY = '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'
+  OPENAI_API_KEY = 'xxxxxxxx'
 )
 
 #Open model
-setwd("C:/Users/dhihr/OneDrive/riset bu yeni")
+setwd(" ")
 modeldt <- readRDS("xgb500_rfe.RData")
 modeldt_util <- readRDS("xgb500_test_utilization.RData")
 
