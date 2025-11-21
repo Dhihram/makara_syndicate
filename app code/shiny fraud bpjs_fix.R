@@ -12,11 +12,11 @@ library(DT)
 
 
 #API GEMINI
-setAPI("xxxxxxxxx")
+setAPI( )
 
 #API OpenAI
 Sys.setenv(
-  OPENAI_API_KEY = 'xxxxxxxx'
+  OPENAI_API_KEY = 
 )
 
 #Open model
